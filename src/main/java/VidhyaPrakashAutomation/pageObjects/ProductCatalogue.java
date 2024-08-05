@@ -67,7 +67,7 @@ public class ProductCatalogue extends AbstractComponent {
 				if (getProduct.contains(itemsNeeded[j])) {
 //					  String item = itemsNeeded[j];
 					product.findElement(addToCart).click();
-					Thread.sleep(Duration.ofSeconds(2));
+					Thread.sleep(2000);
 //					explicitWaitElementInvisible(loadingpage);
 				}
 			}
