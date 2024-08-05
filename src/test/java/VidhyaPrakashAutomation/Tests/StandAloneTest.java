@@ -77,7 +77,8 @@ public class StandAloneTest {
 		  //expwait.until(ExpectedConditions.visibilityOf(cart));
 		  explicitWaitElementInvisible(driver, loadingpage);
 		  explicitWaitElementVisible(driver, cart);
-		  Thread.sleep(Duration.ofSeconds(5));
+		  Thread.sleep(5000);
+		  
 		  cart.click();
 	
 		  List<WebElement> cartItems = driver.findElements(By.cssSelector(".cartSection h3"));
