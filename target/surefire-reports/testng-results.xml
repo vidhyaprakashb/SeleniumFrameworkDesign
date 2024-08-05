@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T13:29:18 IST" name="Suite" finished-at="2024-08-05T13:29:54 IST" duration-ms="35474">
+    <groups>
+      <group name="PurchaseOrder">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" name="submitOrder" class="VidhyaPrakashAutomation.Tests.SubmitOrder"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2024-08-05T13:29:18 IST" name="Error Validation" finished-at="2024-08-05T13:29:28 IST" duration-ms="10253">
+      <class name="VidhyaPrakashAutomation.Tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:18 IST" name="launchApplication" finished-at="2024-08-05T13:29:22 IST" duration-ms="3872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginErrorValidation()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:22 IST" name="loginErrorValidation" finished-at="2024-08-05T13:29:23 IST" duration-ms="723" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at VidhyaPrakashAutomation.Tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:23 IST" name="tearDown" finished-at="2024-08-05T13:29:23 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:23 IST" name="launchApplication" finished-at="2024-08-05T13:29:25 IST" duration-ms="2156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:25 IST" name="loginErrorValidation" finished-at="2024-08-05T13:29:28 IST" duration-ms="2582" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at VidhyaPrakashAutomation.Tests.ErrorValidationTest.loginErrorValidation(ErrorValidationTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VidhyaPrakashAutomation.Tests.ErrorValidationTest@41f69e84]" started-at="2024-08-05T13:29:28 IST" name="tearDown" finished-at="2024-08-05T13:29:28 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VidhyaPrakashAutomation.Tests.ErrorValidationTest -->
+    </test> <!-- Error Validation -->
+    <test started-at="2024-08-05T13:29:18 IST" name="Submit Order" finished-at="2024-08-05T13:29:54 IST" duration-ms="35472">
+      <class name="VidhyaPrakashAutomation.Tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:19 IST" name="launchApplication" finished-at="2024-08-05T13:29:22 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:22 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-05T13:29:35 IST" duration-ms="13094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=121122@Vn, email=vidhyaprakash.document@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:35 IST" name="tearDown" finished-at="2024-08-05T13:29:35 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:35 IST" name="launchApplication" finished-at="2024-08-05T13:29:37 IST" duration-ms="2398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:37 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-05T13:29:50 IST" duration-ms="12629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, email=anshika@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:50 IST" name="tearDown" finished-at="2024-08-05T13:29:50 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:50 IST" name="launchApplication" finished-at="2024-08-05T13:29:53 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:53 IST" name="orderHistory" finished-at="2024-08-05T13:29:54 IST" depends-on-methods="VidhyaPrakashAutomation.Tests.SubmitOrder.submitOrder" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VidhyaPrakashAutomation.Tests.SubmitOrder@333d4a8c]" started-at="2024-08-05T13:29:54 IST" name="tearDown" finished-at="2024-08-05T13:29:54 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VidhyaPrakashAutomation.Tests.SubmitOrder -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
